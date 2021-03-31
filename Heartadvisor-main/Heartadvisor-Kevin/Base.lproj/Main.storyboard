@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XRj-Xa-ICk">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Qt1-pz-GvF">
+            <objects>
+                <viewController id="pNQ-dm-LAW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kN4-Vr-ykV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6oS-XR-oqX"/>
+                        <color key="backgroundColor" red="0.51764705882352935" green="0.0" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5It-Bs-G9V"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3fX-t2-heg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1533" y="792"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Heartadvisor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bWA-fD-lTc">
+                                <rect key="frame" x="165.5" y="185" width="83" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bWA-fD-lTc" secondAttribute="height" id="PkX-Ls-pjO"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACi-QY-ZxV">
+                                <rect key="frame" x="184" y="808" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p9b-V7-anq">
+                                <rect key="frame" x="184" y="766" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="j8Q-H4-F7n">
+                                <rect key="frame" x="103.5" y="308" width="207" height="188"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rmg-98-x5F">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" textContentType="email"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="slc-9S-ndy">
+                                        <rect key="frame" x="0.0" y="54" width="207" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yyj-xr-sfp">
+                                        <rect key="frame" x="0.0" y="108" width="207" height="30"/>
+                                        <state key="normal" title="Sign In"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qjf-4V-BcZ">
+                                        <rect key="frame" x="0.0" y="158" width="207" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.0039215686274509803" green="0.086274509803921567" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="bWA-fD-lTc" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.2" id="3xP-Gk-3LS"/>
+                            <constraint firstItem="j8Q-H4-F7n" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="ALh-Xb-wX0"/>
+                            <constraint firstItem="bWA-fD-lTc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Zsv-oy-ELM"/>
+                            <constraint firstItem="j8Q-H4-F7n" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="c5r-ZH-sOj"/>
+                            <constraint firstItem="j8Q-H4-F7n" firstAttribute="top" secondItem="bWA-fD-lTc" secondAttribute="bottom" constant="40" id="u8a-IS-1Oc"/>
+                            <constraint firstItem="bWA-fD-lTc" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.5" id="xWL-EK-vFe"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailField" destination="rmg-98-x5F" id="OA9-ms-DIR"/>
+                        <outlet property="forgotPasswordBtn" destination="qjf-4V-BcZ" id="T96-x5-Frt"/>
+                        <outlet property="paragraph1" destination="p9b-V7-anq" id="fDi-zG-lJ0"/>
+                        <outlet property="passwordField" destination="slc-9S-ndy" id="Cbf-3K-4Of"/>
+                        <outlet property="signInBtn" destination="yyj-xr-sfp" id="vRp-N0-Ien"/>
+                        <outlet property="toSignUpBtn" destination="ACi-QY-ZxV" id="c1D-vi-VaV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8.6956521739130448" y="117.85714285714285"/>
+        </scene>
+        <!--Sleep View Controller-->
+        <scene sceneID="eRC-ZB-h35">
+            <objects>
+                <viewController id="tPP-Mi-Krq" customClass="SleepViewController" customModule="Heartadvisor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vxS-mA-hfy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="v6i-BA-8Hw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Yfg-MV-t2g"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0uz-Vw-PUM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-765" y="2192"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="dse-f8-KM5">
+            <objects>
+                <viewController id="KS9-Yb-IJ0" customClass="HomeViewController" customModule="Heartadvisor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="21T-wN-2yh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="RJe-OW-6z8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4ME-Cv-Sjo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yrp-Cr-dqd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9" y="2192"/>
+        </scene>
+        <!--Exercise View Controller-->
+        <scene sceneID="9mc-5C-Ug7">
+            <objects>
+                <viewController id="oAQ-PX-RI3" customClass="ExerciseViewController" customModule="Heartadvisor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9g1-LP-g3H">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="EU2-F0-Lkd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cOU-tt-P1w"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7RA-3v-7cR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="775" y="2192"/>
+        </scene>
+        <!--Diet View Controller-->
+        <scene sceneID="By9-Tn-aUT">
+            <objects>
+                <viewController id="b2J-wV-wOH" customClass="DietViewController" customModule="Heartadvisor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6pE-pR-cbE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="J60-pF-VCM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hx6-3c-rcu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0q2-jf-aYl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1551" y="2192"/>
+        </scene>
+        <!--Mental Health View Controller-->
+        <scene sceneID="1Ob-10-kKn">
+            <objects>
+                <viewController id="Sgz-Vb-67R" customClass="MentalHealthViewController" customModule="Heartadvisor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gQm-lG-W6x">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recommended" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3v1-PW-fuO">
+                                <rect key="frame" x="16" y="108" width="116" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3Rb-IW-5tg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3v1-PW-fuO" firstAttribute="top" secondItem="3Rb-IW-5tg" secondAttribute="top" constant="20" id="ZXz-H1-fTv"/>
+                            <constraint firstItem="3v1-PW-fuO" firstAttribute="leading" secondItem="3Rb-IW-5tg" secondAttribute="leading" constant="16" id="uUS-dB-NWH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="vhq-7m-F17"/>
+                    <connections>
+                        <outlet property="recommendedLabel" destination="3v1-PW-fuO" id="Eyt-mv-tXJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1ga-IH-gAf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1533" y="2192"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ZDk-NP-TW5">
+            <objects>
+                <tabBarController id="XRj-Xa-ICk" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ca7-RF-5Zo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="uMh-rI-KxZ" kind="relationship" relationship="viewControllers" id="0BT-xC-Bfb"/>
+                        <segue destination="Wk9-WC-HDn" kind="relationship" relationship="viewControllers" id="W4h-7b-WqO"/>
+                        <segue destination="Fxh-ep-9k9" kind="relationship" relationship="viewControllers" id="ALz-2w-yhl"/>
+                        <segue destination="YqY-kO-KmA" kind="relationship" relationship="viewControllers" id="0nX-Dd-klg"/>
+                        <segue destination="6pN-Ob-dlv" kind="relationship" relationship="viewControllers" id="NHm-E8-toG"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HZa-Y4-45o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9" y="792"/>
+        </scene>
+        <!--Mental Health-->
+        <scene sceneID="wFj-Za-HJc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uMh-rI-KxZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Mental Health" image="meditation" selectedImage="meditation" id="ZyP-C1-LeU"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Xgg-qJ-dzv">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Sgz-Vb-67R" kind="relationship" relationship="rootViewController" id="1DJ-wC-1Qw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jJF-vC-TAs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1533.3333333333335" y="1520.7589285714284"/>
+        </scene>
+        <!--Sleep Tracking-->
+        <scene sceneID="5MP-A3-aV7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Wk9-WC-HDn" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Sleep Tracking" image="sleep" selectedImage="sleep" id="LBf-41-PQR"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Wrq-vU-jxR">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tPP-Mi-Krq" kind="relationship" relationship="rootViewController" id="kxk-7h-Wsz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qek-xB-QhM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-765" y="1521"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="FRi-bl-ekq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Fxh-ep-9k9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="home" selectedImage="home" id="a29-3H-x4p"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="g3b-wG-zut">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="KS9-Yb-IJ0" kind="relationship" relationship="rootViewController" id="eQc-VS-kF2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EgQ-He-JCZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9" y="1521"/>
+        </scene>
+        <!--Exercise-->
+        <scene sceneID="XLZ-X4-EpD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YqY-kO-KmA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Exercise" image="exercise" selectedImage="exercise" id="KBZ-FM-9Z1"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AyU-3J-y2Z">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="oAQ-PX-RI3" kind="relationship" relationship="rootViewController" id="UA4-cc-F1O"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Sh-CB-qWa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="775" y="1521"/>
+        </scene>
+        <!--Diet-->
+        <scene sceneID="dOh-Ib-0xq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6pN-Ob-dlv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Diet" image="diet" selectedImage="diet" id="wRb-ih-z2T"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ypQ-m9-Bcx">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="b2J-wV-wOH" kind="relationship" relationship="rootViewController" id="LdN-BE-PGC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jbn-JM-l9h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1552" y="1521"/>
+        </scene>
+        <!--Side Menu Navigation Controller-->
+        <scene sceneID="DVf-hK-rsm">
+            <objects>
+                <navigationController storyboardIdentifier="LeftMenu" automaticallyAdjustsScrollViewInsets="NO" id="o6x-9D-Fen" customClass="SideMenuNavigationController" customModule="SideMenu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2v8-dd-Per">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="leftSide" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="pNQ-dm-LAW" kind="relationship" relationship="rootViewController" id="lSJ-Un-c2T"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1bc-wO-m6F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1533" y="118"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="diet" width="25" height="25"/>
+        <image name="exercise" width="25" height="25"/>
+        <image name="home" width="25" height="25"/>
+        <image name="meditation" width="25" height="25"/>
+        <image name="sleep" width="25" height="25"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

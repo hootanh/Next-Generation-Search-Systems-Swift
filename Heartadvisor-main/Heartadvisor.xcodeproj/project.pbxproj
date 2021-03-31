@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08B0E28625EC837D00FFAAF0 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B0E28525EC837D00FFAAF0 /* ExerciseViewController.swift */; };
+		08B0E28B25EC83AB00FFAAF0 /* ExerciseSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B0E28A25EC83AB00FFAAF0 /* ExerciseSettingsViewController.swift */; };
+		08B0E29025EC83C400FFAAF0 /* ExerciseProgressSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B0E28F25EC83C400FFAAF0 /* ExerciseProgressSettingsViewController.swift */; };
+		407C04782CAE62931EFEE192 /* Pods_Heartadvisor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81BA7A6A10E868342971875 /* Pods_Heartadvisor.framework */; };
+		E46DC62825DFA01F0073E65F /* MentalSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46DC62725DFA01F0073E65F /* MentalSettingsViewController.swift */; };
+		E46DC62D25DFA0490073E65F /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46DC62C25DFA0490073E65F /* PlayerViewController.swift */; };
+		E49E7CDF25C625EC0040DB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49E7CDE25C625EC0040DB75 /* Main.storyboard */; };
+		E49E7CED25C62CC70040DB75 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49E7CEC25C62CC70040DB75 /* ForgotPasswordViewController.swift */; };
+		E4B0D73C25D0A8270081B905 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B0D73B25D0A8270081B905 /* TabBarViewController.swift */; };
+		E4C609FD25C0958400B89AE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C609FC25C0958400B89AE5 /* AppDelegate.swift */; };
+		E4C609FF25C0958400B89AE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C609FE25C0958400B89AE5 /* SceneDelegate.swift */; };
+		E4C60A0625C0958900B89AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C60A0525C0958900B89AE5 /* Assets.xcassets */; };
+		E4C60A0925C0958900B89AE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C60A0725C0958900B89AE5 /* LaunchScreen.storyboard */; };
+		E4C60A1425C0958900B89AE5 /* HeartadvisorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C60A1325C0958900B89AE5 /* HeartadvisorTests.swift */; };
+		E4C60A1F25C0958900B89AE5 /* HeartadvisorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C60A1E25C0958900B89AE5 /* HeartadvisorUITests.swift */; };
+		E4C60A3C25C098BA00B89AE5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C60A3B25C098BA00B89AE5 /* LoginViewController.swift */; };
+		E4C60A4125C098CB00B89AE5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C60A4025C098CB00B89AE5 /* HomeViewController.swift */; };
+		E4C60A4625C098DC00B89AE5 /* MentalHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C60A4525C098DC00B89AE5 /* MentalHealthViewController.swift */; };
+		E4C60A4B25C098E600B89AE5 /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C60A4A25C098E600B89AE5 /* SleepViewController.swift */; };
+		E4C60A5525C098FE00B89AE5 /* DietViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C60A5425C098FE00B89AE5 /* DietViewController.swift */; };
+		E4C60A5A25C09E2A00B89AE5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C60A5925C09E2A00B89AE5 /* Extensions.swift */; };
+		E4C60A6225C09F8800B89AE5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C60A6125C09F8800B89AE5 /* Constants.swift */; };
+		E4C60A7C25C0C1F400B89AE5 /* FontsFree-Net-SFProDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4C60A7925C0C1E700B89AE5 /* FontsFree-Net-SFProDisplay-Bold.ttf */; };
+		E4C60A7D25C0C1F400B89AE5 /* FontsFree-Net-SFProDisplay-Medium-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4C60A7B25C0C1E800B89AE5 /* FontsFree-Net-SFProDisplay-Medium-1.ttf */; };
+		E4C60A7E25C0C1F400B89AE5 /* FontsFree-Net-SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4C60A7A25C0C1E700B89AE5 /* FontsFree-Net-SFProDisplay-Regular.ttf */; };
+		E4C60A7F25C0C1F400B89AE5 /* FontsFree-Net-SFProDisplay-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4C60A7825C0C1E700B89AE5 /* FontsFree-Net-SFProDisplay-Thin.ttf */; };
+		E4C60A8625C0D2F700B89AE5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C60A8525C0D2F700B89AE5 /* Utilities.swift */; };
+		E4CE680B25E7198700CEF81A /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE680A25E7198700CEF81A /* SideMenuViewController.swift */; };
+		E4F3A04525CD2E58002EEEED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4F3A04425CD2E58002EEEED /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4C60A1025C0958900B89AE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4C609F125C0958400B89AE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4C609F825C0958400B89AE5;
+			remoteInfo = Heartadvisor;
+		};
+		E4C60A1B25C0958900B89AE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4C609F125C0958400B89AE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4C609F825C0958400B89AE5;
+			remoteInfo = Heartadvisor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08B0E28525EC837D00FFAAF0 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		08B0E28A25EC83AB00FFAAF0 /* ExerciseSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSettingsViewController.swift; sourceTree = "<group>"; };
+		08B0E28F25EC83C400FFAAF0 /* ExerciseProgressSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseProgressSettingsViewController.swift; sourceTree = "<group>"; };
+		6B34C10496B5498021D37E78 /* Pods-Heartadvisor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heartadvisor.debug.xcconfig"; path = "Target Support Files/Pods-Heartadvisor/Pods-Heartadvisor.debug.xcconfig"; sourceTree = "<group>"; };
+		70BA94F7D8F6984D433DB39A /* Pods-Heartadvisor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heartadvisor.release.xcconfig"; path = "Target Support Files/Pods-Heartadvisor/Pods-Heartadvisor.release.xcconfig"; sourceTree = "<group>"; };
+		C81BA7A6A10E868342971875 /* Pods_Heartadvisor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Heartadvisor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46DC62725DFA01F0073E65F /* MentalSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalSettingsViewController.swift; sourceTree = "<group>"; };
+		E46DC62C25DFA0490073E65F /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		E49E7CDE25C625EC0040DB75 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E49E7CEC25C62CC70040DB75 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		E4B0D73B25D0A8270081B905 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		E4C609F925C0958400B89AE5 /* Heartadvisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heartadvisor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C609FC25C0958400B89AE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4C609FE25C0958400B89AE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E4C60A0525C0958900B89AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4C60A0825C0958900B89AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4C60A0A25C0958900B89AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4C60A0F25C0958900B89AE5 /* HeartadvisorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartadvisorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C60A1325C0958900B89AE5 /* HeartadvisorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartadvisorTests.swift; sourceTree = "<group>"; };
+		E4C60A1525C0958900B89AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4C60A1A25C0958900B89AE5 /* HeartadvisorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartadvisorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C60A1E25C0958900B89AE5 /* HeartadvisorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartadvisorUITests.swift; sourceTree = "<group>"; };
+		E4C60A2025C0958900B89AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4C60A3B25C098BA00B89AE5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E4C60A4025C098CB00B89AE5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E4C60A4525C098DC00B89AE5 /* MentalHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthViewController.swift; sourceTree = "<group>"; };
+		E4C60A4A25C098E600B89AE5 /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
+		E4C60A5425C098FE00B89AE5 /* DietViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietViewController.swift; sourceTree = "<group>"; };
+		E4C60A5925C09E2A00B89AE5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E4C60A6125C09F8800B89AE5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E4C60A7825C0C1E700B89AE5 /* FontsFree-Net-SFProDisplay-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontsFree-Net-SFProDisplay-Thin.ttf"; sourceTree = "<group>"; };
+		E4C60A7925C0C1E700B89AE5 /* FontsFree-Net-SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontsFree-Net-SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		E4C60A7A25C0C1E700B89AE5 /* FontsFree-Net-SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontsFree-Net-SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		E4C60A7B25C0C1E800B89AE5 /* FontsFree-Net-SFProDisplay-Medium-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontsFree-Net-SFProDisplay-Medium-1.ttf"; sourceTree = "<group>"; };
+		E4C60A8525C0D2F700B89AE5 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E4CE680A25E7198700CEF81A /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		E4F3A04425CD2E58002EEEED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4C609F625C0958400B89AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407C04782CAE62931EFEE192 /* Pods_Heartadvisor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C60A0C25C0958900B89AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C60A1725C0958900B89AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08B0E28425EC836B00FFAAF0 /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				08B0E28525EC837D00FFAAF0 /* ExerciseViewController.swift */,
+				08B0E28A25EC83AB00FFAAF0 /* ExerciseSettingsViewController.swift */,
+				08B0E28F25EC83C400FFAAF0 /* ExerciseProgressSettingsViewController.swift */,
+			);
+			path = Exercise;
+			sourceTree = "<group>";
+		};
+		0DF00D8CA96077A9A4620D08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C81BA7A6A10E868342971875 /* Pods_Heartadvisor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65F304026BBAA15929439B5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B34C10496B5498021D37E78 /* Pods-Heartadvisor.debug.xcconfig */,
+				70BA94F7D8F6984D433DB39A /* Pods-Heartadvisor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E49E7CC525C6205E0040DB75 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E4C60A3B25C098BA00B89AE5 /* LoginViewController.swift */,
+				E49E7CEC25C62CC70040DB75 /* ForgotPasswordViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E4B1F28125D4BE0C00FC237C /* Mental Health */ = {
+			isa = PBXGroup;
+			children = (
+				E4C60A4525C098DC00B89AE5 /* MentalHealthViewController.swift */,
+				E46DC62725DFA01F0073E65F /* MentalSettingsViewController.swift */,
+			);
+			path = "Mental Health";
+			sourceTree = "<group>";
+		};
+		E4C609F025C0958400B89AE5 = {
+			isa = PBXGroup;
+			children = (
+				E4C609FB25C0958400B89AE5 /* Heartadvisor */,
+				E4C60A1225C0958900B89AE5 /* HeartadvisorTests */,
+				E4C60A1D25C0958900B89AE5 /* HeartadvisorUITests */,
+				E4C609FA25C0958400B89AE5 /* Products */,
+				65F304026BBAA15929439B5B /* Pods */,
+				0DF00D8CA96077A9A4620D08 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E4C609FA25C0958400B89AE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4C609F925C0958400B89AE5 /* Heartadvisor.app */,
+				E4C60A0F25C0958900B89AE5 /* HeartadvisorTests.xctest */,
+				E4C60A1A25C0958900B89AE5 /* HeartadvisorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4C609FB25C0958400B89AE5 /* Heartadvisor */ = {
+			isa = PBXGroup;
+			children = (
+				E4C609FC25C0958400B89AE5 /* AppDelegate.swift */,
+				E4C60A8325C0D2D900B89AE5 /* Font */,
+				E4C60A8425C0D2E200B89AE5 /* Helpers */,
+				E4C60A3A25C0989E00B89AE5 /* View Controllers */,
+				E4C609FE25C0958400B89AE5 /* SceneDelegate.swift */,
+				E49E7CDE25C625EC0040DB75 /* Main.storyboard */,
+				E4C60A0525C0958900B89AE5 /* Assets.xcassets */,
+				E4C60A0725C0958900B89AE5 /* LaunchScreen.storyboard */,
+				E4C60A0A25C0958900B89AE5 /* Info.plist */,
+				E4F3A04425CD2E58002EEEED /* GoogleService-Info.plist */,
+				E4B0D73B25D0A8270081B905 /* TabBarViewController.swift */,
+			);
+			path = Heartadvisor;
+			sourceTree = "<group>";
+		};
+		E4C60A1225C0958900B89AE5 /* HeartadvisorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4C60A1325C0958900B89AE5 /* HeartadvisorTests.swift */,
+				E4C60A1525C0958900B89AE5 /* Info.plist */,
+			);
+			path = HeartadvisorTests;
+			sourceTree = "<group>";
+		};
+		E4C60A1D25C0958900B89AE5 /* HeartadvisorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4C60A1E25C0958900B89AE5 /* HeartadvisorUITests.swift */,
+				E4C60A2025C0958900B89AE5 /* Info.plist */,
+			);
+			path = HeartadvisorUITests;
+			sourceTree = "<group>";
+		};
+		E4C60A3A25C0989E00B89AE5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				08B0E28425EC836B00FFAAF0 /* Exercise */,
+				E49E7CC525C6205E0040DB75 /* Login */,
+				E4B1F28125D4BE0C00FC237C /* Mental Health */,
+				E4C60A4025C098CB00B89AE5 /* HomeViewController.swift */,
+				E4C60A4A25C098E600B89AE5 /* SleepViewController.swift */,
+				E4C60A5425C098FE00B89AE5 /* DietViewController.swift */,
+				E46DC62C25DFA0490073E65F /* PlayerViewController.swift */,
+				E4CE680A25E7198700CEF81A /* SideMenuViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E4C60A8325C0D2D900B89AE5 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				E4C60A7925C0C1E700B89AE5 /* FontsFree-Net-SFProDisplay-Bold.ttf */,
+				E4C60A7B25C0C1E800B89AE5 /* FontsFree-Net-SFProDisplay-Medium-1.ttf */,
+				E4C60A7A25C0C1E700B89AE5 /* FontsFree-Net-SFProDisplay-Regular.ttf */,
+				E4C60A7825C0C1E700B89AE5 /* FontsFree-Net-SFProDisplay-Thin.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		E4C60A8425C0D2E200B89AE5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E4C60A6125C09F8800B89AE5 /* Constants.swift */,
+				E4C60A5925C09E2A00B89AE5 /* Extensions.swift */,
+				E4C60A8525C0D2F700B89AE5 /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4C609F825C0958400B89AE5 /* Heartadvisor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4C60A2325C0958900B89AE5 /* Build configuration list for PBXNativeTarget "Heartadvisor" */;
+			buildPhases = (
+				23B30AF9242752A01CD82C05 /* [CP] Check Pods Manifest.lock */,
+				E4C609F525C0958400B89AE5 /* Sources */,
+				E4C609F625C0958400B89AE5 /* Frameworks */,
+				E4C609F725C0958400B89AE5 /* Resources */,
+				D98615204FE70BA613DD289D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Heartadvisor;
+			productName = Heartadvisor;
+			productReference = E4C609F925C0958400B89AE5 /* Heartadvisor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4C60A0E25C0958900B89AE5 /* HeartadvisorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4C60A2625C0958900B89AE5 /* Build configuration list for PBXNativeTarget "HeartadvisorTests" */;
+			buildPhases = (
+				E4C60A0B25C0958900B89AE5 /* Sources */,
+				E4C60A0C25C0958900B89AE5 /* Frameworks */,
+				E4C60A0D25C0958900B89AE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4C60A1125C0958900B89AE5 /* PBXTargetDependency */,
+			);
+			name = HeartadvisorTests;
+			productName = HeartadvisorTests;
+			productReference = E4C60A0F25C0958900B89AE5 /* HeartadvisorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4C60A1925C0958900B89AE5 /* HeartadvisorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4C60A2925C0958900B89AE5 /* Build configuration list for PBXNativeTarget "HeartadvisorUITests" */;
+			buildPhases = (
+				E4C60A1625C0958900B89AE5 /* Sources */,
+				E4C60A1725C0958900B89AE5 /* Frameworks */,
+				E4C60A1825C0958900B89AE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4C60A1C25C0958900B89AE5 /* PBXTargetDependency */,
+			);
+			name = HeartadvisorUITests;
+			productName = HeartadvisorUITests;
+			productReference = E4C60A1A25C0958900B89AE5 /* HeartadvisorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4C609F125C0958400B89AE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E4C609F825C0958400B89AE5 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					E4C60A0E25C0958900B89AE5 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E4C609F825C0958400B89AE5;
+					};
+					E4C60A1925C0958900B89AE5 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E4C609F825C0958400B89AE5;
+					};
+				};
+			};
+			buildConfigurationList = E4C609F425C0958400B89AE5 /* Build configuration list for PBXProject "Heartadvisor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4C609F025C0958400B89AE5;
+			productRefGroup = E4C609FA25C0958400B89AE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4C609F825C0958400B89AE5 /* Heartadvisor */,
+				E4C60A0E25C0958900B89AE5 /* HeartadvisorTests */,
+				E4C60A1925C0958900B89AE5 /* HeartadvisorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4C609F725C0958400B89AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C60A7C25C0C1F400B89AE5 /* FontsFree-Net-SFProDisplay-Bold.ttf in Resources */,
+				E4F3A04525CD2E58002EEEED /* GoogleService-Info.plist in Resources */,
+				E4C60A7D25C0C1F400B89AE5 /* FontsFree-Net-SFProDisplay-Medium-1.ttf in Resources */,
+				E4C60A7E25C0C1F400B89AE5 /* FontsFree-Net-SFProDisplay-Regular.ttf in Resources */,
+				E49E7CDF25C625EC0040DB75 /* Main.storyboard in Resources */,
+				E4C60A7F25C0C1F400B89AE5 /* FontsFree-Net-SFProDisplay-Thin.ttf in Resources */,
+				E4C60A0925C0958900B89AE5 /* LaunchScreen.storyboard in Resources */,
+				E4C60A0625C0958900B89AE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C60A0D25C0958900B89AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C60A1825C0958900B89AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23B30AF9242752A01CD82C05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Heartadvisor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D98615204FE70BA613DD289D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Heartadvisor/Pods-Heartadvisor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Heartadvisor/Pods-Heartadvisor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Heartadvisor/Pods-Heartadvisor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4C609F525C0958400B89AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4CE680B25E7198700CEF81A /* SideMenuViewController.swift in Sources */,
+				E4C60A5525C098FE00B89AE5 /* DietViewController.swift in Sources */,
+				E4C60A5A25C09E2A00B89AE5 /* Extensions.swift in Sources */,
+				E46DC62825DFA01F0073E65F /* MentalSettingsViewController.swift in Sources */,
+				E4C60A8625C0D2F700B89AE5 /* Utilities.swift in Sources */,
+				E4C60A4B25C098E600B89AE5 /* SleepViewController.swift in Sources */,
+				E4C60A3C25C098BA00B89AE5 /* LoginViewController.swift in Sources */,
+				E4C60A6225C09F8800B89AE5 /* Constants.swift in Sources */,
+				E4C609FD25C0958400B89AE5 /* AppDelegate.swift in Sources */,
+				E49E7CED25C62CC70040DB75 /* ForgotPasswordViewController.swift in Sources */,
+				E4C60A4625C098DC00B89AE5 /* MentalHealthViewController.swift in Sources */,
+				E4B0D73C25D0A8270081B905 /* TabBarViewController.swift in Sources */,
+				08B0E29025EC83C400FFAAF0 /* ExerciseProgressSettingsViewController.swift in Sources */,
+				E4C609FF25C0958400B89AE5 /* SceneDelegate.swift in Sources */,
+				E4C60A4125C098CB00B89AE5 /* HomeViewController.swift in Sources */,
+				08B0E28B25EC83AB00FFAAF0 /* ExerciseSettingsViewController.swift in Sources */,
+				08B0E28625EC837D00FFAAF0 /* ExerciseViewController.swift in Sources */,
+				E46DC62D25DFA0490073E65F /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C60A0B25C0958900B89AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C60A1425C0958900B89AE5 /* HeartadvisorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C60A1625C0958900B89AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C60A1F25C0958900B89AE5 /* HeartadvisorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4C60A1125C0958900B89AE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4C609F825C0958400B89AE5 /* Heartadvisor */;
+			targetProxy = E4C60A1025C0958900B89AE5 /* PBXContainerItemProxy */;
+		};
+		E4C60A1C25C0958900B89AE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4C609F825C0958400B89AE5 /* Heartadvisor */;
+			targetProxy = E4C60A1B25C0958900B89AE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4C60A0725C0958900B89AE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4C60A0825C0958900B89AE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4C60A2125C0958900B89AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4C60A2225C0958900B89AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4C60A2425C0958900B89AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B34C10496B5498021D37E78 /* Pods-Heartadvisor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TCCUYTNM3F;
+				INFOPLIST_FILE = Heartadvisor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heart.Heartadvisor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4C60A2525C0958900B89AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70BA94F7D8F6984D433DB39A /* Pods-Heartadvisor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TCCUYTNM3F;
+				INFOPLIST_FILE = Heartadvisor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heart.Heartadvisor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4C60A2725C0958900B89AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TCCUYTNM3F;
+				INFOPLIST_FILE = HeartadvisorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heart.HeartadvisorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heartadvisor.app/Heartadvisor";
+			};
+			name = Debug;
+		};
+		E4C60A2825C0958900B89AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TCCUYTNM3F;
+				INFOPLIST_FILE = HeartadvisorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heart.HeartadvisorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heartadvisor.app/Heartadvisor";
+			};
+			name = Release;
+		};
+		E4C60A2A25C0958900B89AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TCCUYTNM3F;
+				INFOPLIST_FILE = HeartadvisorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heart.HeartadvisorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Heartadvisor;
+			};
+			name = Debug;
+		};
+		E4C60A2B25C0958900B89AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TCCUYTNM3F;
+				INFOPLIST_FILE = HeartadvisorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heart.HeartadvisorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Heartadvisor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4C609F425C0958400B89AE5 /* Build configuration list for PBXProject "Heartadvisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C60A2125C0958900B89AE5 /* Debug */,
+				E4C60A2225C0958900B89AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C60A2325C0958900B89AE5 /* Build configuration list for PBXNativeTarget "Heartadvisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C60A2425C0958900B89AE5 /* Debug */,
+				E4C60A2525C0958900B89AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C60A2625C0958900B89AE5 /* Build configuration list for PBXNativeTarget "HeartadvisorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C60A2725C0958900B89AE5 /* Debug */,
+				E4C60A2825C0958900B89AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C60A2925C0958900B89AE5 /* Build configuration list for PBXNativeTarget "HeartadvisorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C60A2A25C0958900B89AE5 /* Debug */,
+				E4C60A2B25C0958900B89AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4C609F125C0958400B89AE5 /* Project object */;
+}
